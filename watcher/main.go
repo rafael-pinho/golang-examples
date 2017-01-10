@@ -16,5 +16,5 @@ func main() {
 
 	http.HandleFunc("/register", services.Register)
 
-	log.Fatal(http.ListenAndServe(":10002", nil))
+	log.Fatal(http.ListenAndServe(":10001", nil))
 }
